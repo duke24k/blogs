@@ -19,9 +19,12 @@ cat fabfile.py
 env.password = prompt('PASSWORD:')
 def uptime():
     run('uptime')
-    ~~~
+
+~~~
+
     위의 코드를 원격에 있는 호스트 lab.cloudv.kr에 실행해보자.
-    ~~~
+    
+~~~
     # fab -H lab.cloudv.kr uptime
-    ~~~
+~~~
 
