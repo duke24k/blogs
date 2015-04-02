@@ -1,0 +1,97 @@
+<p>puppet이나 chef solo 모두 자동배포에 특화되어 있다. 그러나, 모두  ruby다. perl을 계승한 ruby가 많은 면에서 </p>
+<p>시스템 자동화에 강점을 가지고 있지만,  ruby로 할 수 있는 일이 많다해도 , 도구는 될 수 있는대로 꼭 필요한 만큼 </p>
+<p>있는 것이 낫다. 웬지 이것쓰고 저것쓰고 하면 귀찮지 않는가? Cookbook이나 Reference 또한  많겠지만, python으로 구성된</p>
+<p>시스템에서 관리도구를 ruby로 쓰는 것은 또한  다른 귀차뉘즘이 발동한다. </p>
+<p>이제까지  bash + ssh key 인증으로도 강력하게 관리했지만, 이런이유로  fabric을 보았다. </p>
+<p>ubuntu에서 apt-get install fabric 하면 가볍게 설치가 된다.  </p>
+<p>fab이라는 명령을 실행하면 폴더내에 있는 fabfile.py를 찾아서  실행한다.</p>
+<p>옵션 -f  를 이용해 파일을 지정할 수 도 있다. </p>
+<p>간단한 예제파일을 복사해서 쉘에 저장하자.</p>
+<table style="height: 633px; background-color: #aaaaaa;" width="651">
+    <tbody>
+    <tr>
+        <td># cat fabfile.py</td>
+    </tr>
+    <tr>
+        <td>
+            <pre>from fabric.api import *
+
+            env.hosts=["localhost"]
+            env.user=""
+            env.password=""
+
+            def hostname_check():
+                run("hostname")
+
+                def command(cmd):
+                    run(cmd)
+
+                    def sudo_command(cmd):
+                        sudo(cmd)
+
+                        def install(package):
+                            sudo("apt-get -y install %s" % package)
+
+                            def local_cmd():
+                                local("echo fabtest &gt;&gt; <span class="skimlinks-unlinked">test.log</span>")
+
+                                @parallel
+                                def pcmd(cmd):
+                                    run(cmd)</pre>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<p>  아래의 예제를 실행하면서 결과와 함께 소스를 보자.</p>
+<p>python 함수명이 task가 되어 실행된다.  함수에 인자를 통해 실행도 가능하고 sudo도 가능하다. </p>
+<p>&nbsp;</p>
+<table style="height: 242px; background-color: #aaaaaa;" width="647">
+    <tbody>
+    <tr>
+        <td>command</td>
+        <td>result</td>
+    </tr>
+    <tr>
+        <td>fab hostname_check</td>
+        <td>
+            <pre>env.user=""
+            [localhost] Executing task 'hostname_check'
+            [localhost] run: hostname
+            [localhost] out: localhost
+            [localhost] out: 
+
+
+            Done.
+            Disconnecting from localhost... done.
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>fab command:hostname</td>
+        <td>
+            <p>[localhost] Executing task 'command'<br />[localhost] run: hostname<br />[localhost] out: localhost<br />[localhost] out:</p>
+            <p>Done.<br />Disconnecting from localhost... done.</p>
+        </td>
+    </tr>
+    <tr>
+        <td>fab command:"hostname -I"</td>
+        <td>
+            <p>[localhost] Executing task 'command'<br />[localhost] run: hostname<br />[localhost] out: localhost<br />[localhost] out:</p>
+            <p>Done.<br />Disconnecting from localhost... done.</p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<p>fabfile.py에서 @parallel 은 여러개의 host에 동시에 병렬작업을 실행한다. </p>
+<p>&nbsp;</p>
+<p>http://www.fabfile.org </p>
+<p>&nbsp;</p>
+<p>소스예제와 실행결과만으로도 충분히 이해가 될 것이다. </p>
+<p>&nbsp;</p>
+<p> sudo는 사용자 비밀번호와 루트 비밀번호를 입력하여 명령어를 실행시키는데 fabric에서는 두 비밀번호</p>
+<p>가 같아서 sudoers 파일을 수정하고 비밀번호 물지않고 인증하도록  설정하는데 여기서는 생략했다. </p>
+<p>&nbsp;</p>
+<p>python 쓸 일이 없으면 늘지도 않는다. fabric을 통해 python을 배워가는데 자극이 됐으면 하는 바람에 소개한다. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>[polldaddy rating="7739789"] </p>
