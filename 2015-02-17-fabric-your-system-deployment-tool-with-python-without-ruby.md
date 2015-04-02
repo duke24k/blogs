@@ -99,5 +99,3 @@ http://www.fabfile.org
 python 쓸 일이 없으면 늘지도 않는다. fabric을 통해 python을 배워가는데 자극이 됐으면 하는 바람에 소개한다.
 
 
-[polldaddy rating="7739789"]
-

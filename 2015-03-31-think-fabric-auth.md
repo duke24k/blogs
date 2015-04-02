@@ -155,5 +155,3 @@ root 사용자는 ALL 호스트에 대해 ALL 사용자와 ALL 그룹이 ALL 명
 
 
 
-[polldaddy rating="7739789"]
-
