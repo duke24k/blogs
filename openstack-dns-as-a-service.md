@@ -48,7 +48,7 @@ DNS as a service에 대한 고민은 Moinker라는 프로젝트가 openstack com
 
     $ editor designate.conf
 
-https://gist.github.com/TimSimmons/6596014
+[Sample Configuration](https://gist.github.com/TimSimmons/6596014)
 
     # Initialize and sync the Designate database:
     $ designate-manage database-init
@@ -70,15 +70,19 @@ https://gist.github.com/TimSimmons/6596014
     $ cd root/designate
     #Make sure your virtualenv is sourced 
     $ . .venv/bin/activate
+
     $ cd etc/designate
+
     # Start the API Service
+
     $ designate-api
     #You may have to run root/designate/bin/designate-api
 
-    wget http://ipecho.net/plain -O - -q ; echo
+    $ wget http://ipecho.net/plain -O - -q ; echo
 
-https://designate.readthedocs.org/en/latest/rest.html
-http://www.rackspace.com/blog/designate-gaining-momentum-as-openstack-dns-as-a-service/
-http://docs.hpcloud.com/helion/openstack/1.1/install/dnsaas/
-https://wiki.openstack.org/wiki/Designate
+# Reference
+[RESTFUL API SPEC](https://designate.readthedocs.org/en/latest/rest.html) 
+[designate-gaining-momentum-as-openstack-dns-as-a-service](http://www.rackspace.com/blog/designate-gaining-momentum-as-openstack-dns-as-a-service/)
+[helion dns as a service](http://docs.hpcloud.com/helion/openstack/1.1/install/dnsaas/)
+[Openstack Wiki's desinate](https://wiki.openstack.org/wiki/Designate)
 
