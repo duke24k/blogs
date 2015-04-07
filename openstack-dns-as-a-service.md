@@ -11,6 +11,7 @@ Moinker는 그 전신으로 2012년 Kiall Mac Innes 가 시작했고, 그가 HP�
 DNS as a service에 대한 고민은 Moinker라는 프로젝트가 openstack community에 던져주었고,
 이를 기반으로 Desinate라는 프로젝트를 인큐베이팅하고 있다.
 
+![Architecure](https://designate.readthedocs.org/en/latest/_images/Designate-Simple.png)
 # Installing the desinate in Ubuntu 12.04
 
     $ apt-get install python-pip python-virtualenv
