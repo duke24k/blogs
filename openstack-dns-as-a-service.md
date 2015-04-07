@@ -82,8 +82,11 @@ DNS as a service에 대한 고민은 Moinker라는 프로젝트가 openstack com
 
 # Reference
 [RESTFUL API SPEC](https://designate.readthedocs.org/en/latest/rest.html) 
+
 [designate-gaining-momentum-as-openstack-dns-as-a-service](http://www.rackspace.com/blog/designate-gaining-momentum-as-openstack-dns-as-a-service/)
+
 [helion dns as a service](http://docs.hpcloud.com/helion/openstack/1.1/install/dnsaas/)
+
 [Openstack Wiki's desinate](https://wiki.openstack.org/wiki/Designate)
 
 
