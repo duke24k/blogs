@@ -17,6 +17,8 @@ ubuntu 14.10으로 tajo 0.10.0을 사용할 수 있도록 빌드되어 있다. D
     ubuntu/tajo                 latest              60d8ed4548f2        51 minutes ago      1.526 GB
     ubuntu-14.04/tajo           0.10.0              60d8ed4548f2        51 minutes ago      1.526 GB
 
+
+
     $ docker build -t ubuntu/tajo
 
 빌드를 시도했는데 에러가 생겼다. 에러가 생기는 부분이 있어 잡기 위해 Dockerfile을 수정을 했다. 14.04 때문 일까? 
