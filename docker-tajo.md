@@ -1,5 +1,12 @@
+# Rebuiling the Docker Image, UBUNTU 14.04 TAJO 0.10.0 
 
-(sktelecom/ubuntu-14.10-hdw)[https://registry.hub.docker.com/u/sktelecom/ubuntu14.10-hdw/]
+
+[sktelecom/ubuntu-14.10-hdw](https://registry.hub.docker.com/u/sktelecom/ubuntu14.10-hdw/) 
+
+
+Ubuntu 14.10에 Apache TAJO 0.10.0을 사용할수 있도록 Dockerfile과 사용예제가 이쁘게 정리된 사이트를 보았다. 그러나, 최신보다 중요한 것은 LTS, Ubuntu 14.04에 맞춰서 Docker 이미지를 만들어 보기로 했다.
+
+
 
 ubuntu 14.10으로 tajo 0.10.0을 사용할 수 있도록 빌드되어 있다. Dockerfile을  Ubuntu LTS 버전인 
 14.04를 기준으로 다시 build를 시도해봐았다.
@@ -99,7 +106,7 @@ ubuntu 14.10으로 tajo 0.10.0을 사용할 수 있도록 빌드되어 있다. D
     ubuntu-14.04/tajo           0.10.0              60d8ed4548f2        51 minutes ago      1.526 GB
 
 
-이렇게 해서 Ubuntu 14.04에서 tajo 0.10.0 Docker 이미지를 만들어보았다. LTE보다 LTS를 사랑하니까,...
+이렇게 해서 Ubuntu 14.04 / tajo 0.10.0 Docker 이미지를 만들어보았다. LTE보다 LTS를 사랑하니까,...
 
 
 
