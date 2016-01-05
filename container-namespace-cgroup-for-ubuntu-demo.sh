@@ -1,6 +1,8 @@
 #!/bin/bash -x 
-# Description
-# Demo scripts for ubuntu
+# Description : Demo scripts for ubuntu
+# Writer : jaeminj@gmail.com
+# Date   : 2016-01-05
+# Runas : Ubuntu 14.04
 
 # Refer the follwoings. 
 # http://lxc.sourceforge.net/old/index.php/about/kernel-namespaces/network/configuration/
