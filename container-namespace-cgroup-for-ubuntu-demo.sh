@@ -2,7 +2,8 @@
 # Description : Demo scripts for ubuntu
 # Writer : jaeminj@gmail.com
 # Date   : 2016-01-05
-# Runas : Ubuntu 14.04
+# Runas : Kernel 3.13.0-32-generic / Ubuntu 
+
 
 # Refer the follwoings. 
 # http://lxc.sourceforge.net/old/index.php/about/kernel-namespaces/network/configuration/
