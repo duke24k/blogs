@@ -1,6 +1,6 @@
 #!/bin/bash -x 
-# Description
-# Demo scripts for ubuntu
+# Description : Demo scripts for ubuntu
+# Writer : jaeminj@gmail.com
 
 # Refer the follwoings. 
 # https://www.kernel.org/doc/Documentation/cgroups/cpusets.txt
