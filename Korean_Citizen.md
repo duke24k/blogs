@@ -1,5 +1,5 @@
 대한민국 시민의 기본  상식 
--[안철수는 어떻게 카이스트교수가 됐나?](http://www.allinkorea.net/sub_read.html?uid=26201) 
+- [안철수는 어떻게 카이스트교수가 됐나?](http://www.allinkorea.net/sub_read.html?uid=26201) 
 
 
 더불어 민주당 
