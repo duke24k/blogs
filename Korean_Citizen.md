@@ -1,6 +1,7 @@
 대한민국 시민의 기본  상식 
 - [안철수는 어떻게 카이스트교수가 됐나?](http://www.allinkorea.net/sub_read.html?uid=26201) 
 - [박근혜 재산 21억, 일가 재산은 4조원](http://blog.donga.com/sjdhksk/archives/38673)
+- [이명박 BBK](https://ko.wikipedia.org/wiki/BBK_%EC%A3%BC%EA%B0%80_%EC%A1%B0%EC%9E%91_%EC%82%AC%EA%B1%B4)
 
 더불어 민주당 
 - [탈탕파가 두려워하는 시스템 공천, 정청래의 핵심정리](http://yunatalktalk.blogspot.kr/2016/01/blog-post_4.html)
