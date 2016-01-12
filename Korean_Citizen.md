@@ -2,6 +2,7 @@
 - [안철수는 어떻게 카이스트교수가 됐나?](http://www.allinkorea.net/sub_read.html?uid=26201) 
 - [박근혜 재산 21억, 일가 재산은 4조원](http://blog.donga.com/sjdhksk/archives/38673)
 - [이명박 BBK](https://ko.wikipedia.org/wiki/BBK_%EC%A3%BC%EA%B0%80_%EC%A1%B0%EC%9E%91_%EC%82%AC%EA%B1%B4)
+
 리더쉽은 어디에 있는가? 
 
 더불어 민주당 
