@@ -6,10 +6,10 @@
 - [탈탕파가 두려워하는 시스템 공천, 정청래의 핵심정리](http://yunatalktalk.blogspot.kr/2016/01/blog-post_4.html)
 
 역사의식
--[위안부](http://www.hermuseum.go.kr/)
+- [위안부](http://www.hermuseum.go.kr/)
 
--[일본침략사진전](http://sf.koreaportal.com/ad_img/event_201411.html)
+- [일본침략사진전](http://sf.koreaportal.com/ad_img/event_201411.html)
 
--[4.19혁명](https://ko.wikipedia.org/wiki/4%C2%B719_%ED%98%81%EB%AA%85)
+- [4.19혁명](https://ko.wikipedia.org/wiki/4%C2%B719_%ED%98%81%EB%AA%85)
 
--[5.18 광주 민주화 운동](https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99)
+- [5.18 광주 민주화 운동](https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99)
