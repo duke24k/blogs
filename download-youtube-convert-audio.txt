@@ -16,6 +16,14 @@ youtube-dl -c -t URL_HERE
 youtube-dl -c -t -a urls.txt
 
 
+sudo apt-get install ffmpeg && sudo apt-get install libavcodec-extra-53
+
+ffmpeg -i videofile.mp4 -vn -acodec copy audiofile.mp3
+
+ffmpeg -i videofile.mp4 -vn -acodec libvorbis audiofile.ogg
+ffmpeg -i videofile.mp4 -vn -acodec libmp3lame audiofile.mp3
+
+
 ffmpeg -i k.mp4 -q:a 0 -map a k.mp3
 
 ffmpeg -i filename.mp4 filename.mp3
