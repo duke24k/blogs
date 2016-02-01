@@ -1,0 +1,38 @@
+sudo apt-get install youtube-dl
+
+youtube-dl YouTube-(or-other-website)-video-link
+
+
+1. To update it
+
+youtube-dl -U
+
+2. and to download a video or playlist
+
+youtube-dl -c -t URL_HERE
+
+3. and if there is a file with urls then
+
+youtube-dl -c -t -a urls.txt
+
+
+ffmpeg -i k.mp4 -q:a 0 -map a k.mp3
+
+ffmpeg -i filename.mp4 filename.mp3
+or
+
+ffmpeg -i video.mp4 -b:a 192K -vn music.mp3
+
+
+ffmpeg -i video.mp4 -vn \
+       -acodec libmp3lame -ac 2 -ab 160k -ar 48000 \
+        audio.mp3
+or if you want to use Variable Bitrate Encoding (VBR):
+
+ffmpeg -i video.mp4 -vn \
+       -acodec libmp3lame -ac 2 -qscale:a 4 -ar 48000 \
+        audio.mp3
+        
+ ffmpeg -i video.mp4 -vn \
+       -acodec libmp3lame -ac 2 -ab 192k \
+        audio.mp3
